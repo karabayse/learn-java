@@ -83,10 +83,14 @@ System.out.println(true && true); // prints true
 System.out.println(false && false); // prints false
 System.out.println(false && true); // prints false
 System.out.println(true && false); // prints false
-System.out.println(2 < 3 && 4 < 5);
+System.out.println(2 < 3 && 4 < 5); // prints true
 
 System.out.println(false || false); // prints false
 System.out.println(false || true); // prints true
 System.out.println(true || false); // prints true
 System.out.println(true || true); // prints true
-System.out.println(2 > 1 || 3 > 4);
+System.out.println(2 > 1 || 3 > 4); // prints true
+
+System.out.println(!false); // prints true
+System.out.println(!true); // prints false
+System.out.println( !(4 <= 10) ); // prints false
