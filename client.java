@@ -94,3 +94,45 @@ System.out.println(2 > 1 || 3 > 4); // prints true
 System.out.println(!false); // prints true
 System.out.println(!true); // prints false
 System.out.println( !(4 <= 10) ); // prints false
+
+
+// CONDITIONAL STATEMENTS
+if (9 > 2) {
+    System.out.println("Control flow rocks!");
+}
+
+public class If {
+	public static void main(String[] args) {
+
+		if (4 > 3) {
+
+			System.out.println("Access granted.");
+
+		}
+
+	}
+}
+
+if (1 < 3 && 5 < 4) {
+    System.out.println("I defy the Boolean laws!")
+} else {
+    System.out.println("You can thank George Boole!");
+}
+
+
+// TERNARY CONDITIONAL 
+int pointsScored = 21;
+
+char gameResult = (pointsScored > 20) ? 'W' : 'L';
+System.out.println(gameResult);
+
+public class Ternary {
+	public static void main(String[] args) {
+
+		int fuelLevel = 3;
+
+		char canDrive = (fuelLevel > 0) ? 'Y' : 'N';
+		System.out.println(canDrive);
+
+	}
+}
