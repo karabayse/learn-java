@@ -120,7 +120,7 @@ if (1 < 3 && 5 < 4) {
 }
 
 
-// TERNARY CONDITIONAL 
+// TERNARY CONDITIONAL
 int pointsScored = 21;
 
 char gameResult = (pointsScored > 20) ? 'W' : 'L';
@@ -133,6 +133,46 @@ public class Ternary {
 
 		char canDrive = (fuelLevel > 0) ? 'Y' : 'N';
 		System.out.println(canDrive);
+
+	}
+}
+
+
+// SWITCH STATEMENT
+int restaurantRating = 3;
+
+switch (restaurantRating) {
+
+    case 1: System.out.println("This restaurant is not my favorite.");
+      break;
+
+    case 2: System.out.println("This restaurant is good.");
+      break;
+
+    case 3: System.out.println("This restaurant is fantastic!");
+      break;
+
+    default: System.out.println("I've never dined at this restaurant.");
+      break;
+}
+
+public class Switch {
+	public static void main(String[] args) {
+
+		char penaltyKick = 'L';
+
+		switch (penaltyKick) {
+
+			case 'L': System.out.println("Messi shoots to the left and scores!");
+								break;
+			case 'R': System.out.println("Messi shoots to the right and misses the goal!");
+								break;
+			case 'C': System.out.println("Messi shoots down the center, but the keeper blocks it!");
+								break;
+			default:
+				System.out.println("Messi is in position...");
+
+		}
 
 	}
 }
