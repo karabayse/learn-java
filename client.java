@@ -215,7 +215,7 @@ public class Mouse extends Rodentia {
 
 
 // CLASS CONSTRUCTOR
-class Car {
+class Car extends Vehicle {
 
 		// instance variable
     int modelYear;
@@ -237,5 +237,15 @@ class Car {
 
         Car myFastCar = new Car(2007);
 				myFastCar.startEngine();
+    }
+}
+
+// INHERITANCE by use of "extends"
+class Vehicle {
+
+    public void checkBatteryStatus() {
+
+        System.out.println("The battery is fully charged and ready to go!");
+
     }
 }
