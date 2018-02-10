@@ -212,3 +212,16 @@ public class Mouse extends Rodentia {
 	}
 
 }
+
+
+// CLASS CONSTRUCTOR
+class Car {
+
+    // instance variable
+    int modelYear;
+
+    public Car(int year) {
+
+        modelYear = year;
+    }
+}
