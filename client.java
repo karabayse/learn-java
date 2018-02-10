@@ -217,11 +217,25 @@ public class Mouse extends Rodentia {
 // CLASS CONSTRUCTOR
 class Car {
 
-    // instance variable
+		// instance variable
     int modelYear;
 
     public Car(int year) {
 
         modelYear = year;
+
+    }
+
+    // new method
+    public void startEngine() {
+
+        System.out.println("Vroom!");
+
+    }
+
+    public static void main(String[] args){
+
+        Car myFastCar = new Car(2007);
+				myFastCar.startEngine();
     }
 }
