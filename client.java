@@ -340,7 +340,7 @@ public class Temperatures {
 			weeklyTemperatures.add(2, 111);
 			// get
 			System.out.println(weeklyTemperatures.get(1));
-			// iterating --> for loop 
+			// iterating --> for loop
 			for (int j = 0; j < weeklyTemperatures.size(); j++) {
       System.out.println(weeklyTemperatures.get(j));
     }
@@ -349,5 +349,23 @@ public class Temperatures {
 			System.out.println(temperature);
 		}
 
+	}
+}
+
+
+// HASHMAP
+import java.util.HashMap;
+
+public class Restaurant {
+	public static void main(String[] args) {
+
+	HashMap<String, Integer> restaurantMenu = new HashMap<String, Integer>();
+
+	// manipulation
+	restaurantMenu.put("Turkey Burger", 13);
+ 	restaurantMenu.put("Naan Pizza", 11);
+ 	restaurantMenu.put("Cranberry Kale Salad", 10);
+	// access 
+	System.out.println(restaurantMenu.get("Naan Pizza"));
 	}
 }
