@@ -335,5 +335,7 @@ public class Temperatures {
     	weeklyTemperatures.add(89);
     	weeklyTemperatures.add(94);
 
+			System.out.println(weeklyTemperatures.get(1));
+
 	}
 }
