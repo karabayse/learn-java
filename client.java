@@ -330,7 +330,7 @@ public class Temperatures {
 	public static void main(String[] args) {
 
     	ArrayList<Integer> weeklyTemperatures = new ArrayList<Integer>();
-			// manipulation 
+			// manipulation
 			weeklyTemperatures.add(78);
     	weeklyTemperatures.add(67);
     	weeklyTemperatures.add(89);
@@ -340,6 +340,10 @@ public class Temperatures {
 			weeklyTemperatures.add(2, 111);
 			// get
 			System.out.println(weeklyTemperatures.get(1));
+			// iterating
+			for (int j = 0; j < weeklyTemperatures.size(); j++) {
+      System.out.println(weeklyTemperatures.get(j));
+    }
 
 	}
 }
