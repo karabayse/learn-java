@@ -365,7 +365,15 @@ public class Restaurant {
 	restaurantMenu.put("Turkey Burger", 13);
  	restaurantMenu.put("Naan Pizza", 11);
  	restaurantMenu.put("Cranberry Kale Salad", 10);
-	// access 
+	// access
 	System.out.println(restaurantMenu.get("Naan Pizza"));
+
+	System.out.println(restaurantMenu.size());
+	// iterating over a HashMap
+	for (String item : restaurantMenu.keySet()) {
+
+	System.out.println("A " + item + " costs " + restaurantMenu.get(item) + " dollars.");
+
+
 	}
 }
